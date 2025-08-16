@@ -9,8 +9,8 @@ const router = express.Router()
 
 router.post("/register",register)
 router.post("/login",login)
-router.post("/forget",forgotPassword)
-router.patch("/reset/:token",resetPassword)
+router.post("/forget-password",forgotPassword)
+router.patch("/reset-password/:token",resetPassword)
 
 
 export {router}
