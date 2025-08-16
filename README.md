@@ -42,16 +42,16 @@ Configuration
 Edit the .env file:
 env
 
-NODE_ENV=development
-PORT=5000
-MONGO_URI=mongodb+srv://your-mongodb-uri
-JWT_SECRET=your_strong_jwt_secret
-JWT_EXPIRES_IN=30d
-SMTP_HOST=smtp.ethereal.email
-SMTP_PORT=587
-SMTP_USER=your@ethereal.email
-SMTP_PASSWORD=your-ethereal-password
-SMTP_FROM_EMAIL=noreply@authflow.com
+- NODE_ENV=development
+- PORT=5000
+- MONGO_URI=mongodb+srv://your-mongodb-uri
+- JWT_SECRET=your_strong_jwt_secret
+- JWT_EXPIRES_IN=30d
+- SMTP_HOST=smtp.ethereal.email
+- SMTP_PORT=587
+- SMTP_USER=your@ethereal.email
+- SMTP_PASSWORD=your-ethereal-password
+- SMTP_FROM_EMAIL=noreply@authflow.com
 
 Running the Server
 ```bash
